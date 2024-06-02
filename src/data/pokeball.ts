@@ -54,7 +54,6 @@ export function getPokeballName(type: PokeballType): string {
 
 export function getPokeballCatchMultiplier(type: PokeballType): number {
   switch (type) {
-<<<<<<< HEAD
     case PokeballType.POKEBALL:
       return -1;
     case PokeballType.GREAT_BALL:
@@ -67,20 +66,6 @@ export function getPokeballCatchMultiplier(type: PokeballType): number {
       return -1;
     case PokeballType.LUXURY_BALL:
       return 1;
-=======
-  case PokeballType.POKEBALL:
-    return 1;
-  case PokeballType.GREAT_BALL:
-    return 1.5;
-  case PokeballType.ULTRA_BALL:
-    return 2;
-  case PokeballType.ROGUE_BALL:
-    return 3;
-  case PokeballType.MASTER_BALL:
-    return -1;
-  case PokeballType.LUXURY_BALL:
-    return 1;
->>>>>>> 655e3ba24c9ddd0f35a032f8debe71b8432e1fc8
   }
 }
 
